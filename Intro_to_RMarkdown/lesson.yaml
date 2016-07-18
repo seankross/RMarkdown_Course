@@ -1,0 +1,32 @@
+- Class: meta
+  Course: RMarkdown Course
+  Lesson: Intro to RMarkdown
+  Author: Sean Kross
+  Type: Standard
+  Organization: The Johns Hopkins Data Science Lab
+  Version: 2.4.2
+
+- Class: text
+  Output: This is a basic example of how the correctness of an R Markdown
+    document could be evaluated. I've loaded a function called check_rmd()
+    which you will use later in this course.
+
+- Class: figure
+  Output: You should now see an RMarkdown file. Add an h1 heading that says
+    "Hello world!"
+  Figure: openrmd.R
+  FigureType: new
+
+- Class: cmd_question
+  Output: Enter check_rmd() to make sure your Rmd is correct.
+  CorrectAnswer: NULL
+  AnswerTests: test_rmd()
+  Hint: 'Your Rmd needs to contain: "# Hello world!"'
+
+- Class: text
+  Output: Let's take a look at the Rmd you created.
+  
+- Class: figure
+  Output: What a beautiful HTML document!
+  Figure: html.R
+  FigureType: new
