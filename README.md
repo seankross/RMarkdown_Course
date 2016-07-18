@@ -6,7 +6,7 @@ This course demonstrates how you could evaluate an R Markdown document for corre
 
 ```r
 library(swirl)
-install_course_github("seankross", "RMarkdown Course")
+install_course_github("seankross", "RMarkdown_Course")
 ```
 
 ## License
