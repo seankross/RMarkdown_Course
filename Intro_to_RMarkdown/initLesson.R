@@ -13,7 +13,7 @@ check_rmd <- function(){invisible()}
 }
 
 .pathtofile <<- function(fileName){
-  mypath <- file.path(.get_course_path(),
+  file.path(.get_course_path(),
                       "RMarkdown_Course", "Intro_to_RMarkdown",
                       fileName)
 }
